@@ -17,12 +17,12 @@ library(lubridate)
 #Contraseñas eliminadas por cuestión de seguridad
 
 ##Guardar la contraseña 
-a <- rtweet_app("AAAAAAAAAAAAAAAAAAAAAHixiQEAAAAA7JXcVohkwfCOYDZoqVw6H1wFUTc%3DWwxPt87jNCg1u05VlHaJGrXdqyUrbrfAoW4tT3O0Pva3YiR1Ua")
+a <- rtweet_app()
 
-auth_save(auth = a, name = "Helios")
+auth_save(auth = a, name = "")
 
 #Guardar el usuario y contraseña para la app
-auth_as("Helios")
+auth_as("")
 
 
 ### Guardar fecha actual del usuario
