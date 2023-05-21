@@ -107,6 +107,6 @@ output$download_data <- downloadHandler(
     
 }
 
-# Run the application 
+# Correr la función de manera local 
 shinyApp(ui = ui, server = server)
   
